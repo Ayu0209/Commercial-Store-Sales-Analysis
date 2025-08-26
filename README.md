@@ -1,7 +1,6 @@
 # Commercial Store Sales Analysis
 
-### Brief One‑Line Summary
-Analyzing retail store sales data to extract insights into inventory performance and profitability using SQL, Python, and Power BI.
+_Analyzing retail store sales data to extract insights into inventory performance and profitability using Excel, Python, and Power BI._
 
 ---
 
@@ -14,7 +13,7 @@ Analyzing retail store sales data to extract insights into inventory performance
 6. [Data Cleaning & Preparation](#data-cleaning--preparation)  
 7. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)  
 8. [Research Questions & Key Findings](#research-questions--key-findings)  
-9. [Dashboard/Model/Output](#dashboardmodeloutput)  
+9. [Dashboard](#dashboard)  
 10. [How to Run This Project?](#how-to-run-this-project)  
 11. [Results & Conclusion](#results--conclusion)  
 12. [Future Work](#future-work)  
@@ -42,7 +41,6 @@ Retail stores often deal with excess inventory and missed revenue due to lack of
 ---
 
 ## Tools and Technologies
-- **SQL** – Data extraction and aggregation.  
 - **Python (Pandas, Matplotlib)** – Data cleaning and visualization.  
 - **Power BI** – Interactive dashboards to monitor performance.  
 - **Git/GitHub** – Version control and documentation.
@@ -52,12 +50,26 @@ Retail stores often deal with excess inventory and missed revenue due to lack of
 ## Project Structure
 ```
 Commercial-Store-Sales-Analysis/
-├── data/                       # Raw and processed datasets
-├── notebook/                   # Jupyter notebooks for analysis
-├── dashboard/                  # Power BI dashboards (.pbix)
-├── images/                     # Exported visuals and charts
-├── README.md                   # Project documentation
-└── .gitignore                  # Files to ignore in version control
+│
+│── 📂 data/                         
+│   │── retail_sales_dataset.csv             # Original dataset
+│   │── retail_sales_with_location.csv       # Original dataset with Location
+│   │── final_sales.csv                      # Cleaned / transformed dataset
+│
+│── 📂 notebook/                 # Jupyter notebooks for EDA & analysis
+│   │── Sales.ipynb
+│
+│── 📂 dashboard/                 # Power BI dashboard
+│   │── sales_dashboard.pbix
+│
+│── 📂 visuals/                   # Exported plots, charts, and screenshots
+│   │── blue gradient.jpg
+│   │── page-1.jpg
+│   │── page-2.jpg
+│   │── symbol.jpg
+│
+│── 📄 README.md                 # Project overview, business problem, insights,etc
+│── 📄 .gitignore                 # Ignore unnecessary files
 ```
 
 ---
@@ -87,10 +99,13 @@ Commercial-Store-Sales-Analysis/
 
 ---
 
-## Dashboard/Model/Output
+## Dashboard
 - **Power BI dashboard** showcasing KPI cards, category heatmaps, inventory vs sales charts, store comparisons.  
-- Exported visuals available in the `images/` folder (e.g., `images/sales_trend.png`, `images/inventory_performance.png`).
+- Exported visuals available in the `images/` folder.
+   **Dashboard Snapshot:**  
 
+![Page-1](https://github.com/Ayu0209/Commercial-Store-Sales-Analysis/blob/main/images/page-1.jpg)  
+![Page-2](https://github.com/Ayu0209/Commercial-Store-Sales-Analysis/blob/main/images/page-2.jpg)  
 ---
 
 ## How to Run This Project?
@@ -100,7 +115,7 @@ Commercial-Store-Sales-Analysis/
    cd Commercial-Store-Sales-Analysis
    ```  
 2. Open and run notebooks in the `notebook/` folder.  
-3. Open `dashboard/your_dashboard.pbix` in Power BI Desktop.
+3. Open `dashboard/sales_dashboard.pbix` in Power BI Desktop.
 
 ---
 
@@ -118,7 +133,10 @@ Commercial-Store-Sales-Analysis/
 
 ---
 
-## Author & Contact
-**Author:** Ayushi Kedia  
+## Author & Contact  
+👩‍💻 **Ayushi Kedia**    
+📧 Email: ayushikediahm@gmail.com    
+🔗 [LinkedIn](https://www.linkedin.com/in/ayushi-kedia-81bb7520b/)  
+
 📧 Email: your.email@example.com  
 🔗 GitHub: [Ayu0209](https://github.com/Ayu0209)
