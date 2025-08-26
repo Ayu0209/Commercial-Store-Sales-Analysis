@@ -139,5 +139,3 @@ Commercial-Store-Sales-Analysis/
 📧 Email: ayushikediahm@gmail.com    
 🔗 [LinkedIn](https://www.linkedin.com/in/ayushi-kedia-81bb7520b/)  
 
-📧 Email: your.email@example.com  
-🔗 GitHub: [Ayu0209](https://github.com/Ayu0209)
