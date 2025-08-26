@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook
+*.ipynb_checkpoints
+
+# Virtual Environment
+env/
+venv/
+.venv/
+
+# Data Files (Large/Raw)
+*.csv
+*.xlsx
+*.xls
+*.zip
+
+# Power BI
+*.pbix
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
