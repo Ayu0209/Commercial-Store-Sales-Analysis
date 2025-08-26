@@ -1,1 +1,0 @@
-# Commercial-Store-Sales-Analysis
