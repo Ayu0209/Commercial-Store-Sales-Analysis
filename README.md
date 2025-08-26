@@ -1,6 +1,6 @@
 # Commercial Store Sales Analysis
 
-_Analyzing retail store sales data to extract insights into inventory performance and profitability using Excel, Python, and Power BI._
+_Analyzing retail store sales data to extract insights into inventory performance and profitability using Jupyter Notebook, Python, and Power BI._
 
 ---
 
@@ -41,9 +41,10 @@ Retail stores often deal with excess inventory and missed revenue due to lack of
 ---
 
 ## Tools and Technologies
-- **Python (Pandas, Matplotlib)** – Data cleaning and visualization.  
-- **Power BI** – Interactive dashboards to monitor performance.  
-- **Git/GitHub** – Version control and documentation.
+- **Python (Pandas, NumPy, Matplotlib, Seaborn)** → Data Cleaning & EDA  
+- **Jupyter Notebook** → Analysis and visualization  
+- **Power BI** → Dashboard and reporting  
+- **GitHub** → Version control and project documentation
 
 ---
 
